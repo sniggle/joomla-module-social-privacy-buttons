@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>Social Privacy Buttons</name>
+	<creationDate>January 2018</creationDate>
+	<author>sniggle.me</author>
+	<authorEmail>sniggle@sniggle.me</authorEmail>
+	<authorUrl>http://www.sniggle.me</authorUrl>
+	<version>1.0.0</version>
+	<description>Module to display social sharing buttons without tracking scripts.</description>
+	<files>
+		<filename>mod_social_privacy_buttons.xml</filename>
+		<filename module="mod_social_privacy_buttons">mod_social_privacy_buttons.php</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.mod_social_privacy_buttons.ini</language>
+        <language tag="en-GB">en-GB/en-GB.mod_social_privacy_buttons.sys.ini</language>
+        <language tag="de-DE">de-DE/de-DE.mod_social_privacy_buttons.ini</language>
+        <language tag="de-DE">de-DE/de-DE.mod_social_privacy_buttons.sys.ini</language>
+        <language tag="es-ES">es-ES/es-ES.mod_social_privacy_buttons.ini</language>
+        <language tag="es-ES">es-ES/es-ES.mod_social_privacy_buttons.sys.ini</language>
+		</languages>
+	<config>
+		<fields name="params">
+            <fieldset name="basic">
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

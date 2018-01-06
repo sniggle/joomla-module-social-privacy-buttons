@@ -18,6 +18,10 @@ Instead of sharing buttons that are loaded from a social network itself this Joo
 ### How can we still see the number of shares / likes / pins?
 This is achieved via your Joomla! installation. The server calls the APIs of the different social networks to retrieve details about the current URL. (e.g. 12 people pinned this URL)
 
+### Will this module increase the loading time of my website?
+Normally it can slow down a website to load data from different sources before delivering a website.
+Social Privacy Buttons keeps your website speed by calling the social networks via an extra ajax request to your server. Therefore the site is already rendered while Joomla is retrieving the likes / shares and pins in the social networks. When the data is available the count fields will be updated automatically.
+
 ### Which social networks and channels are supported by "Social Privacy Buttons for Joomla?"
 So far the following sharing methods are supported
 * Facebook
@@ -27,3 +31,21 @@ So far the following sharing methods are supported
 * Pinterest
 * Whatsapp
 * eMail
+
+### Which languages are supported?
+Right now the module supports the following languages
+* English (en-GB)
+* German (de-DE)
+* Spanish (es-ES)
+
+### Where can I see a demo of this Joomla! module?
+We installed the module in two different places on this website: https://www.yoga-on-holiday.com/
+Example: https://www.yoga-on-holiday.com/about-us/blog/1599-free-listing-of-your-yoga-retreats-in-3-languages
+
+### Dependencies of this Joomla! module
+* Seblod for Articles - will be removed
+* FontAwesome - will be integrated and optional
+
+### Next Steps for first release
+* Add CSS for Bootstrap 4 Display utilities (until Joomla! 4 is available)
+* 
