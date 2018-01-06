@@ -48,4 +48,3 @@ Example: https://www.yoga-on-holiday.com/about-us/blog/1599-free-listing-of-your
 
 ### Next Steps for first release
 * Add CSS for Bootstrap 4 Display utilities (until Joomla! 4 is available)
-* 
