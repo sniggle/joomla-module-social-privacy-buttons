@@ -1,5 +1,7 @@
 # Social Privacy Buttons for Joomla!
-** Joomla! Module to display social sharing buttons for various networks without tracking scripts! **
+**Joomla! Module to display social sharing buttons for various networks without tracking scripts!**
+
+**We are just preparing to provide the first release. Until then the module is WORK IN PROGRESS**
 
 ## About this Joomla! module
 Yet another social sharing add-in for Joomla! ???
