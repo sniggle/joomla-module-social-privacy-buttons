@@ -23,8 +23,41 @@
 		</languages>
 	<config>
 		<fields name="params">
-            <fieldset name="basic">
-
+      <fieldset name="basic">
+				<field name="load_fontawesome" type="radio" default="1" label="MOD_SOCIAL_PRIVACY_BUTTONS_LOAD_FONTAWESOME" description="MOD_SOCIAL_PRIVACY_BUTTONS_LOAD_FONTAWESOME_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="show_facebook" type="radio" default="1" label="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_FACEBOOK" description="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_FACEBOOK_DESC">
+                    <option value="1">JYES</option>
+										<option value="0">JNO</option>
+                </field>
+				<field name="show_gplus" type="radio" default="1" label="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_GPLUS" description="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_GPLUS_DESC">
+                    <option value="1">JYES</option>
+										<option value="0">JNO</option>
+                </field>
+				<field name="show_linkedin" type="radio" default="1" label="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_LINKEDIN" description="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_LINKEDIN_DESC">
+                    <option value="1">JYES</option>
+										<option value="0">JNO</option>
+                </field>
+				<field name="show_pinterest" type="radio" default="1" label="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_PINTEREST" description="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_PINTEREST_DESC">
+                    <option value="1">JYES</option>
+										<option value="0">JNO</option>
+                </field>
+				<field name="show_twitter" type="radio" default="1" label="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_TWITTER" description="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_TWITTER_DESC">
+										<option value="1">JYES</option>
+										<option value="0">JNO</option>
+								</field>
+				<field name="show_whatsapp" type="radio" default="1" label="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_WHATSAPP" description="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_WHATSAPP_DESC">
+										<option value="1">JYES</option>
+										<option value="0">JNO</option>
+								</field>
+				<field name="show_mail" type="radio" default="1" label="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_MAIL" description="MOD_SOCIAL_PRIVACY_BUTTONS_SHOW_MAIL_DESC">
+										<option value="1">JYES</option>
+										<option value="0">JNO</option>
+								</field>
 			</fieldset>
 		</fields>
 	</config>
